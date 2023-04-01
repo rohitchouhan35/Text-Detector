@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@color/black_shade_1">
+
+    <!--image view to display our image-->
+    <ImageView
+        android:id="@+id/idIVCaptureImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/detector_icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/ignore"/>
+
+    <!--text view to display our extracted text-->
+
+    <!--button to capture our image-->
+
+    <!--button to detect text from our image-->
+    <TextView
+        android:id="@+id/idIVDetectedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/idIVCaptureImage"
+        android:textColor="@color/yellow"
+        android:text="@string/clicking_description"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/idBtnSnap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVDetectedText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/snap_button_background"
+        android:text="@string/camera_click_button_text"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/yellow"/>
+
+    <Button
+        android:id="@+id/idBtnDetect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnSnap"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/snap_button_background"
+        android:text="@string/click_result_button"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/yellow"/>
+
+</RelativeLayout>

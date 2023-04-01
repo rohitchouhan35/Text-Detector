@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Custom button style -->
+    <style name="snapStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/snap_button_background</item>
+        <item name="android:textSize">18sp</item>
+        <!-- Add more customizations here as needed -->
+    </style>
+</resources>

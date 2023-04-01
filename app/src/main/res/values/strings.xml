@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Text Detector</string>
+    <string name="camera_click_button_text">Snap</string>
+    <string name="click_result_button">Detect</string>
+    <string name="clicking_description">Click snap to take a photo and hit detect</string>
+    <string name="ignore">ignore</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "817145524042",
+    "project_id": "ocrb-a4f8e",
+    "storage_bucket": "ocrb-a4f8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817145524042:android:f992b51061d3f07aa29bb3",
+        "android_client_info": {
+          "package_name": "com.rohit.textdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817145524042-trml3erss5fv41jrp7f52g9qln5nldod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyUNywb8Knxw-X60uPi1Bvs0a63IQIm18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817145524042-trml3erss5fv41jrp7f52g9qln5nldod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
